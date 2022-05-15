@@ -8,7 +8,14 @@
 
         Amount <input type="number"  id="principal">  <br/>
         Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
+        No. of Years <select id="years">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        </select>
+        <br/>
         <button onclick="compute()">Compute</button>
         <br><br>
         Simple Interest : <span id="result"></span>
